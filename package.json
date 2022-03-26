@@ -1,0 +1,17 @@
+{
+  "name": "examples",
+  "workspaces": {
+    "packages": [
+      "nextjs/*"
+    ]
+  },
+  "scripts": {
+    "prepare": "npx husky install",
+    "prettier": "prettier --config .prettierrc \"./**/*.+(js|ts)\" --write"
+  },
+  "packageManager": "yarn@3.2.0",
+  "devDependencies": {
+    "prettier": "^2.6.1",
+    "turbo": "^1.1.10"
+  }
+}

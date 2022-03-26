@@ -1,0 +1,39 @@
+# Environment files
+.DS_Store
+.history
+
+# Node directories
+node_modules
+
+# Serverless directories
+.serverless
+
+dist
+*.log
+
+# IDEs
+.idea
+.vscode
+**/*.iml
+
+# secrets
+secrets/
+
+# Jest
+coverage/
+
+# Buckets testing
+buckets/
+.turbo
+.esbuild
+
+package-lock.json
+
+# yarn
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
